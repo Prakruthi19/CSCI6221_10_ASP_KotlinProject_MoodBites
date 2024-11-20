@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Mood Bites</string>
+    <string name="recommended_foods_will_appear_here">Delicious recommendations tailored just for you.</string>
+    <string name="view_cart">View Cart</string>
+    <string name="food_name">Food Name</string>
+    <string name="_0_00">$0.00</string>
+    <string name="total_0_00">Total: $0.00</string>
+    <string name="checkout">Checkout</string>
+    <string name="payment_method_prompt">Select Payment Method</string>
+    <string name="welcome">Welcome</string>
+    <string name="shipping_details">Shipping Details</string>
+    <string name="alreadyHav">Already have an account? Login</string>
+    <string name="createAnAcc">Create an account</string>
+    <string name="continueWi">Continue with Google</string>
+    <string name="loginText">Login</string>
+    <string name="welcomeBack">Welcome back!</string>
+    <string name="loginDescription">Sign in to your account</string>
+    <string name="emailHint">Email Address</string>
+    <string name="passwordHint">Password</string>
+    <string name="forgotPassword">Forgot Password</string>
+    <string name="passwordRecoveryText">Password Recovery</string>
+    <string name="signUpDescription">Don’t have an account? Sign Up</string>
+    <string name="signUp">Sign up</string>
+    <string name="sendLink">Send Link</string>
+    <string name="createAnAccountTextView">Create account</string>
+    <string name="createAccountDescription">Quickly create account</string>
+    <string name="confirmPasswordTextHint">Confirm Password</string>
+    <string name="moodPageTitle">How Are You Feeling?</string>
+    <string name="moodDescription">Let\'s turn that mood around with the perfect food to match!</string>
+    <string name="welcomeDescription">Tired of the same old takeout? Let us curate a meal based on your mood.</string>
+
+</resources>

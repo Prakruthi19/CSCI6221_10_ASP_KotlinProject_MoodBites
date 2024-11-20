@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="10dp">
+
+
+    <!-- res/layout/activity_recommendation.xml -->
+
+    <TextView
+        android:id="@+id/recommendationTextView"
+        style="@style/recommendationTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-10dp"
+        android:text="@string/recommended_foods_will_appear_here"
+        android:textSize="14sp"
+        android:gravity="center"  />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/foodRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="595dp"
+        android:padding="16dp"
+/>
+
+    <Button
+        android:id="@+id/viewCartButton"
+        style="@style/loginButton"
+        android:layout_width="380dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/view_cart"
+        android:textAppearance="@style/createAnAccount" />
+
+
+</LinearLayout>
+

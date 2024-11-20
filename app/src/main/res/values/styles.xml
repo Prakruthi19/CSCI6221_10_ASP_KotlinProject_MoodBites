@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="welcome1">
+    <item name="android:textSize">25sp</item>
+    <item name="android:letterSpacing">0.03</item>
+    <item name="android:textColor">#000000</item>
+    <item name="fontFamily">@font/poppins_bold</item>
+</style>
+
+    <style name="welcomeBack">
+        <item name="android:textSize">25sp</item>
+        <item name="android:letterSpacing">0.03</item>
+        <item name="android:textColor">#000000</item>
+        <item name="fontFamily">@font/poppins_bold</item>
+    </style>
+    <style name="shippingDetailsTextView">
+        <item name="android:textSize">25sp</item>
+        <item name="android:letterSpacing">0.03</item>
+        <item name="android:textColor">#000000</item>
+        <item name="fontFamily">@font/poppins_bold</item>
+    </style>
+    <style name="passwordRecoveryText">
+        <item name="android:textSize">20sp</item>
+        <item name="android:letterSpacing">0.03</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="fontFamily">@font/poppins_bold</item>
+    </style>
+    <style name="forgotPasswordPage">
+        <item name="android:textSize">25sp</item>
+        <item name="android:letterSpacing">0.03</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="fontFamily">@font/poppins_bold</item>
+    </style>
+
+    <style name="loginDescription">
+        <item name="android:textSize">15sp</item>
+        <item name="android:letterSpacing">0.03</item>
+        <item name="android:textColor">#000000</item>
+        <item name="fontFamily">@font/poppins_medium</item>
+    </style>
+    <style name="welcome">
+        <item name="android:textSize">25sp</item>
+        <item name="android:letterSpacing">0.03</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="fontFamily">@font/poppins_bold</item>
+    </style>
+    <style name="welcomeDescription">
+        <item name="android:textSize">15sp</item>
+        <item name="android:letterSpacing">0.03</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="fontFamily">@font/poppins_italic</item>
+    </style>
+
+    <style name="alreadyHav">
+        <item name="android:textSize">13sp</item>
+        <item name="android:letterSpacing">0.03</item>
+        <item name="android:textColor">#868889</item>
+        <item name="fontFamily">@font/poppins_bold</item>
+
+    </style>
+    <style name="forgotPassword">
+        <item name="android:textSize">13sp</item>
+        <item name="android:letterSpacing">0.03</item>
+        <item name="android:textColor">#407EC7</item>
+        <item name="fontFamily">@font/poppins_medium</item>
+
+    </style>
+    <style name="recommendationTitle">
+        <item name="android:textSize">13sp</item>
+        <item name="android:letterSpacing">0.03</item>
+        <item name="android:textColor">#000000</item>
+        <item name="fontFamily">@font/poppins_bold</item>
+        <item name="android:textAlignment">center</item>
+
+    </style>
+    <style name="loginText">
+        <item name="android:textSize">13sp</item>
+        <item name="android:letterSpacing">0.03</item>
+        <item name="android:textColor">#868889</item>
+        <item name="fontFamily">@font/poppins_extrabold</item>
+    </style>
+    <style name="continueWi">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#000000</item>
+        <item name="fontFamily">@font/poppins_bold</item>
+    </style>
+    <style name="totalPriceText">
+        <item name="android:textSize">13sp</item>
+        <item name="android:letterSpacing">0.03</item>
+        <item name="android:textColor">#000000</item>
+        <item name="fontFamily">@font/poppins_medium</item>
+
+    </style>
+    <style name="createAnAccount" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@drawable/button_background</item>
+        <item name="fontFamily">@font/poppins_bold</item>
+        <item name="backgroundTint">@null</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:layout_height">56dp</item>
+        <item name="android:layout_width">match_parent</item> </style>
+
+    <style name="loginButton" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@drawable/button_background</item>
+        <item name="fontFamily">@font/poppins_bold</item>
+        <item name="backgroundTint">@null</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:layout_height">56dp</item>
+        <item name="android:layout_width">match_parent</item> </style>
+    <style name="backButton" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="android:background">#00000000</item>
+    </style>
+
+    <style name="sendLink" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@drawable/button_background</item>
+        <item name="fontFamily">@font/poppins_bold</item>
+        <item name="backgroundTint">@null</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:layout_height">56dp</item>
+        <item name="android:layout_width">match_parent</item> </style>
+    <style name="backButtonBlack" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="android:background">#00000000</item>
+    </style>
+
+    <style name="moodTypes">
+        <item name="android:textSize">25sp</item>
+        <item name="android:letterSpacing">0.03</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="fontFamily">@font/poppins_bold</item>
+    </style>
+
+    <style name="moodDashboardTitle">
+        <item name="android:textSize">25sp</item>
+        <item name="android:letterSpacing">0.03</item>
+        <item name="android:textColor">#000000</item>
+        <item name="fontFamily">@font/poppins_bold</item>
+    </style>
+    <style name="moodDashboardDescription">
+        <item name="android:textSize">15sp</item>
+        <item name="android:letterSpacing">0.03</item>
+        <item name="android:textColor">#868889</item>
+        <item name="fontFamily">@font/poppins_italic</item>
+    </style>
+    <style name="recyclerView">
+        <item name="android:textSize">25sp</item>
+        <item name="android:letterSpacing">0.03</item>
+        <item name="android:textColor">#000000</item>
+        <item name="fontFamily">@font/poppins_bold</item>
+    </style>
+     <style name="recommendationTextView">
+        <item name="android:textSize">15sp</item>
+        <item name="android:letterSpacing">0.03</item>
+        <item name="android:textColor">#000000</item>
+        <item name="fontFamily">@font/poppins_medium</item>
+    </style>
+    <style name="addToCartButton">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@drawable/button_background</item>
+        <item name="fontFamily">@font/poppins_bold</item>
+        <item name="backgroundTint">@null</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+    <style name="checkoutButton" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@drawable/button_background</item>
+        <item name="fontFamily">@font/poppins_bold</item>
+        <item name="backgroundTint">@null</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:layout_height">56dp</item>
+        <item name="android:layout_width">match_parent</item> </style>
+</resources>

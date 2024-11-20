@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "296200060325",
+    "project_id": "mood-bites",
+    "storage_bucket": "mood-bites.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:296200060325:android:b03da6dbad068fd3ee7c4c",
+        "android_client_info": {
+          "package_name": "com.example.moodbites"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAtkBvpU8YIuJjeLdzIf8BfyciYrl6KzGQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

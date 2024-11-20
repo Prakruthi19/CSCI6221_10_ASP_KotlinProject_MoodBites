@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical">
+<TextView
+    android:id="@+id/moodDashboardTitle"
+    android:layout_width="350dp"
+    android:layout_height="wrap_content"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentTop="true"
+    android:layout_marginStart="36dp"
+    android:layout_marginTop="55dp"
+    android:elevation="15dp"
+    android:gravity="center_horizontal|top"
+    android:text="@string/moodPageTitle"
+    android:textAppearance="@style/moodDashboardTitle" />
+<TextView
+    android:id="@+id/moodDashboardDescription"
+    android:layout_width="350dp"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/moodDashboardTitle"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentTop="true"
+    android:layout_marginStart="30dp"
+    android:layout_marginEnd="30dp"
+    android:layout_marginTop="93dp"
+    android:elevation="15dp"
+    android:gravity="center_horizontal|top"
+    android:text="@string/moodDescription"
+    android:textAppearance="@style/moodDashboardDescription" />
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_below="@id/moodDashboardDescription">
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/moodRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="8dp"
+        style="@style/recyclerView"
+        android:background="@drawable/button_background"/>
+</LinearLayout>
+</RelativeLayout>
